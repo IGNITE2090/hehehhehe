@@ -78,4 +78,17 @@ h1 { color: #c2185b; }
     transform: scale(1);
   }
 }
+.letter-text {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin: 30px;
+  color: #444;
+}
+
+.signature {
+  margin-top: 20px;
+  font-style: italic;
+  color: #ff4d6d;
+}
+
 
