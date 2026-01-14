@@ -90,5 +90,16 @@ h1 { color: #c2185b; }
   font-style: italic;
   color: #ff4d6d;
 }
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 
 
