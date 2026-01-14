@@ -106,6 +106,21 @@ h1 { color: #c2185b; }
   margin: 30px;
   color: #222; /* make sure it's visible */
 }
+.prev-button, .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #ff6f91;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.prev-button:hover, .next-button:hover {
+    transform: scale(1.1);
+}
+
 
 
 
