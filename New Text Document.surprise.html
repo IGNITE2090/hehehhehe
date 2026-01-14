@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secret Surprise 💝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="page fade-in" id="lockScreen">
+  <h1>🔒 Secret Surprise</h1>
+  <p>This page is locked 💖<br>Only one special person can open it.</p>
+
+  <input type="password" id="passwordInput" placeholder="Enter password"
+         style="padding:10px; border-radius:20px; border:1px solid #ccc;">
+  <br><br>
+  <button class="btn" onclick="checkPassword()">Unlock 💕</button>
+
+  <p id="errorMsg" style="color:red; display:none; margin-top:15px;">
+    ❌ Wrong password
+  </p>
+</section>
+
+<!-- SURPRISE CONTENT (HIDDEN INITIALLY) -->
+<section class="page fade-in" id="surpriseContent" style="display:none;">
+  <h1>One Big Surprise for You 😘</h1>
+
+  <p>
+    My dear Nancy,<br><br>
+    You unlocked my heart 💖  
+    Now receive something very special…
+  </p>
+
+  <h2 class="pulse">💋 100 MUAHHHHHHS JUST FOR YOU 💋</h2>
+
+  <div id="kisses" class="kisses-box"></div>
+
+  <p style="margin-top:30px;">
+    Each kiss says the same thing…<br>
+    I am always with you ❤️
+  </p>
+
+  <a href="forever.html" class="btn">Final Page ➜</a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
